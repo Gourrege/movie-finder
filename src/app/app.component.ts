@@ -4,6 +4,9 @@ import { CommonModule } from '@angular/common';
 import { IOMDBResponse } from './omdbresponse';
 import { OmdbApiService } from './services/omdb-api.service';
 import { SearchtitleComponent } from './components/searchtitle/searchtitle.component';
+import { RouterLink } from '@angular/router';
+import { RouterLinkActive } from '@angular/router';
+
 
 @Component({
   selector: 'app-root',
