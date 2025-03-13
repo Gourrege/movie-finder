@@ -1,3 +1,4 @@
+
 export interface IOMDBResponse2 {
     Search: movieDetails[];
     totalResults: number;
@@ -5,11 +6,11 @@ export interface IOMDBResponse2 {
   }
   
   interface movieDetails {
-    Title: string;
-    Year: string;
-    Director: string;
-    Poster: string;
-    Type: string;
-    Error: string;
+      Title: string;
+      Year: string;
+      Director: string;
+      Poster: string;
+      Type: string;
+      Error: string;
   }
   
